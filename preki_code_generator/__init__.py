@@ -2,7 +2,7 @@ import time
 
 
 AUG_24 = "1598227201000"
-MAP = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
+MAP = list('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 
 
 def generate_code(business_id, prefix=''):
